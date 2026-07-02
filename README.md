@@ -167,6 +167,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [reddit-community-builder](./plugins/reddit-community-builder)
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [twitter-engager](./plugins/twitter-engager)
+- [x-skills](https://github.com/sergebulaev/x-skills)
 
 ### Project & Product Management
 - [discuss](./plugins/discuss)
