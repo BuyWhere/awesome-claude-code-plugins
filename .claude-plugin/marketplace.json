@@ -1670,6 +1670,25 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "app-starter",
+      "source": "./plugins/app-starter",
+      "description": "Bootstrap new Next.js, Flutter, and FastAPI apps with current packages, no deprecated APIs, and a consistent house style. Ships skills nextjs-app, flutter-app, and fastapi-app.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Aneeb Baig"
+      },
+      "category": "Development Engineering",
+      "homepage": "https://github.com/aneebbaig/app-starter-skills",
+      "keywords": [
+        "nextjs",
+        "flutter",
+        "fastapi",
+        "scaffold",
+        "starter",
+        "bootstrap"
+      ]
     }
   ]
 }
