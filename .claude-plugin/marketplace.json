@@ -1670,6 +1670,23 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "yaohe",
+      "source": "./plugins/yaohe",
+      "description": "吆喝 — Let your agent promote your open-source project across 20 CN & EN channels, rule-abiding and per-channel tailored.",
+      "version": "0.1.0",
+      "author": {
+        "name": "nmhjklnm"
+      },
+      "category": "Marketing Growth",
+      "homepage": "https://github.com/nmhjklnm/yaohe",
+      "keywords": [
+        "open-source",
+        "promotion",
+        "marketing",
+        "launch"
+      ]
     }
   ]
 }
