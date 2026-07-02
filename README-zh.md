@@ -166,6 +166,7 @@
 - [instagram-curator](./plugins/instagram-curator)
 - [reddit-community-builder](./plugins/reddit-community-builder)
 - [tiktok-strategist](./plugins/tiktok-strategist)
+- [yaohe](./plugins/yaohe)
 - [twitter-engager](./plugins/twitter-engager)
 
 ### 项目与产品管理
