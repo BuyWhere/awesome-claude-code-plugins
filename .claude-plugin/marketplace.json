@@ -1670,6 +1670,25 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "ai-meeting",
+      "description": "Run structured multi-agent decision reviews with Codex, Claude Code, and adapter-based CLI agents.",
+      "version": "0.1.0",
+      "author": {
+        "name": "bin1874",
+        "email": "constantine.ff@gmail.com"
+      },
+      "source": "./plugins/ai-meeting",
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/ai-meeting",
+      "keywords": [
+        "workflow",
+        "multi-agent",
+        "decision-review",
+        "codex",
+        "claude-code"
+      ]
     }
   ]
 }
