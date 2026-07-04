@@ -108,6 +108,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
+- [claude-bionify](./plugins/claude-bionify)
 - [joker](./plugins/joker)
 - [mobile-ux-optimizer](./plugins/mobile-ux-optimizer)
 - [onomastophes](./plugins/onomastophes)

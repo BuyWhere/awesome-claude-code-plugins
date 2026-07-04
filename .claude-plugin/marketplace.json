@@ -1670,6 +1670,19 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "claude-bionify",
+      "source": "./plugins/claude-bionify",
+      "description": "Bionic reading for Claude Code responses that bolds the leading part of each word to improve readability and focus.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Samuel Ruairí Bullard",
+        "url": "https://github.com/abullard1"
+      },
+      "category": "Design UX",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/claude-bionify",
+      "keywords": ["accessibility", "readability", "bionic-reading", "focus", "claude-code"]
     }
   ]
 }
