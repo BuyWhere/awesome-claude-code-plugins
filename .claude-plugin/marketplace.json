@@ -1670,6 +1670,18 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "fable-baton",
+      "source": "./plugins/fable-baton",
+      "description": "Makes Fable 5 the orchestrator: Fable keeps judgment, tiered Opus/Sonnet/Haiku subagents do the labor, and hooks enforce the delegation.",
+      "version": "1.3.0",
+      "author": {
+        "name": "realgarit"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/fable-baton",
+      "keywords": ["orchestration", "agents", "delegation", "fable", "token-efficiency"]
     }
   ]
 }
