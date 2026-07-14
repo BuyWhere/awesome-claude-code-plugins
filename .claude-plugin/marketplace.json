@@ -1670,6 +1670,24 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "craftsman",
+      "source": "./plugins/craftsman",
+      "description": "Engineering-discipline toolkit: minimal-diff coding, root-cause debugging, recurring-bug detection, and honest completion reports. Ten agents, seven skills, and cross-platform hooks.",
+      "version": "0.5.1",
+      "author": {
+        "name": "bufferbrew"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/bufferBrew/craftsman",
+      "keywords": [
+        "agents",
+        "skills",
+        "debugging",
+        "code-review",
+        "orchestration"
+      ]
     }
   ]
 }
