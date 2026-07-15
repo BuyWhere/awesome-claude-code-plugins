@@ -94,6 +94,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
 - [refractor](./plugins/refractor)
+- [slicewise](./plugins/slicewise)
 - [test-file](./plugins/test-file)
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
