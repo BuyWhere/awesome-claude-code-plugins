@@ -141,6 +141,7 @@
 - [documentation-generator](./plugins/documentation-generator)
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
+- [trigger-tree](https://github.com/Hedde/trigger_tree)
 - [update-claudemd](./plugins/update-claudemd)
 
 ### Git工作流

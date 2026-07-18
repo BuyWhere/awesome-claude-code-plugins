@@ -11,6 +11,36 @@
   },
   "plugins": [
     {
+      "name": "trigger-tree",
+      "displayName": "trigger-tree",
+      "source": {
+        "source": "github",
+        "repo": "Hedde/trigger_tree"
+      },
+      "description": "Local documentation-discovery telemetry for Claude Code with live dashboards, heat maps, health diagnostics, and evidence-backed router fixes.",
+      "version": "0.8.0",
+      "author": {
+        "name": "Hedde van der Heide",
+        "url": "https://github.com/Hedde"
+      },
+      "category": "Documentation",
+      "homepage": "https://hedde.github.io/trigger_tree/",
+      "repository": "https://github.com/Hedde/trigger_tree",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "docs-as-code",
+        "documentation",
+        "observability",
+        "telemetry"
+      ],
+      "tags": [
+        "documentation",
+        "local-first",
+        "observability"
+      ]
+    },
+    {
       "name": "documentation-generator",
       "source": "./plugins/documentation-generator",
       "description": "Create comprehensive documentation for code, APIs, and projects.",
