@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-v2.6.0-blueviolet?style=flat-square" alt="version v2.6.0" />
+  <img src="https://img.shields.io/badge/version-v2.6.2-blueviolet?style=flat-square" alt="version v2.6.2" />
   &nbsp;
   <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT license" />
   &nbsp;
@@ -22,15 +22,14 @@
 </p>
 
 <p align="center">
-  <a href="docs/installation.md">Installation</a> &middot;
-  <a href="docs/providers.md">Providers</a> &middot;
-  <a href="docs/model-routing.md">Model Routing</a> &middot;
-  <a href="docs/orchestration.md">Orchestration</a> &middot;
-  <a href="CHANGELOG.md">Changelog</a>
+  <a href="https://github.com/Mohammed-Abdelhady/hyperflow">Upstream repo</a> &middot;
+  <a href="https://github.com/Mohammed-Abdelhady/hyperflow/blob/main/docs/installation.md">Installation</a> &middot;
+  <a href="https://github.com/Mohammed-Abdelhady/hyperflow/blob/main/docs/orchestration.md">Orchestration</a> &middot;
+  <a href="https://github.com/Mohammed-Abdelhady/hyperflow/blob/main/CHANGELOG.md">Changelog</a>
 </p>
 
 <p align="center">
-  <code>v2.6.2</code> · <a href="CHANGELOG.md">Changelog</a>
+  <code>v2.6.2</code> · <a href="https://github.com/Mohammed-Abdelhady/hyperflow/blob/main/CHANGELOG.md">Changelog</a>
 </p>
 
 ---
@@ -73,7 +72,7 @@ Done. Next: /hyperflow:deploy (gates + commit + push) — user-explicit, not aut
 - `/hyperflow:trace`, `/hyperflow:audit`, `/hyperflow:deploy`, `/hyperflow:scaffold`, `/hyperflow:cache` — standalone, don't chain
 
 <p align="center">
-  <img src="docs/assets/demo.gif" alt="Hyperflow — chain-of-skills with parallel dispatch, quality gates, and persistent memory" width="100%" />
+  <img src="https://raw.githubusercontent.com/Mohammed-Abdelhady/hyperflow/main/docs/assets/demo.gif" alt="Hyperflow — chain-of-skills with parallel dispatch, quality gates, and persistent memory" width="100%" />
 </p>
 
 ---
@@ -333,7 +332,7 @@ Personas compose by priority. `security` is stitched first so its constraints fr
 | Codex | o3 | o4-mini |
 | Antigravity | Gemini 3.1 Pro | 3 Flash |
 
-Provider is auto-detected at session start. Override any model in `~/.hyperflow/config.json` or switch mid-session with `hyperflow: thinking <model>`. See [Provider Setup](docs/providers.md).
+Provider is auto-detected at session start. Override any model in `~/.hyperflow/config.json` or switch mid-session with `hyperflow: thinking <model>`. See [Provider Setup](https://github.com/Mohammed-Abdelhady/hyperflow/blob/main/docs/installation.md).
 
 ---
 
@@ -378,7 +377,7 @@ Full spec: [skills/hyperflow/session-memory.md](skills/hyperflow/session-memory.
 <details>
 <summary><strong>Change model versions</strong></summary>
 
-Edit `~/.hyperflow/config.json` or use runtime commands. See [Model Routing Guide](docs/model-routing.md) for all options, role overrides, and runtime commands.
+Edit `~/.hyperflow/config.json` or use runtime commands. See [Model Routing Guide](https://github.com/Mohammed-Abdelhady/hyperflow/blob/main/docs/orchestration.md) for all options, role overrides, and runtime commands.
 </details>
 
 <details>
@@ -464,23 +463,20 @@ hyperflow/
 │   ├── audit/SKILL.md            #   /hyperflow:audit    — multi-level code review
 │   ├── deploy/SKILL.md           #   /hyperflow:deploy   — pre-push gates + commit + push
 │   └── cache/SKILL.md            #   /hyperflow:cache    — memory CRUD
-├── scripts/
-│   ├── release.sh                #   Auto-release with changelog generation
-│   └── bump-version.sh           #   Sync version across all manifests
 ├── config/
 │   ├── defaults.json             #   Default model catalogs
+│   ├── features.json             #   Feature flags
 │   └── schema.json               #   Config JSON Schema
 ├── hooks/
 │   ├── hooks.json                #   Session startup config
 │   └── session-start             #   Welcome injection (lists entry skills — no longer injects an always-on orchestrator)
-├── docs/                         #   Guides and references
 ├── .claude-plugin/plugin.json    #   Claude Code plugin manifest
-├── install.sh                    #   Installer + setup wizard
 ├── package.json
-├── CHANGELOG.md                  #   Version history
 ├── LICENSE                       #   MIT
-└── README.md
+└── README.md                     #   Install + overview (full docs in upstream repo)
 ```
+
+Full guides, CHANGELOG, and release scripts live in the [upstream Hyperflow repository](https://github.com/Mohammed-Abdelhady/hyperflow).
 
 ---
 
@@ -490,7 +486,7 @@ hyperflow/
 claude plugin update hyperflow@hyperflow-marketplace
 ```
 
-See [CHANGELOG](CHANGELOG.md) for what's new in v1.10.0.
+See [CHANGELOG](https://github.com/Mohammed-Abdelhady/hyperflow/blob/main/CHANGELOG.md) for release history.
 
 ---
 
@@ -525,10 +521,11 @@ For full transparency — what this plugin does at runtime, so reviewers and use
 
 ## Documentation
 
-- [Installation Guide](docs/installation.md) — setup, recommended settings, security config
-- [Provider Setup](docs/providers.md) — per-platform model catalogs
-- [Model Routing](docs/model-routing.md) — resolution priority, role overrides, runtime switching
-- [Orchestration Pattern](docs/orchestration.md) — decomposition, review, learning injection
+Docs live in the [upstream Hyperflow repo](https://github.com/Mohammed-Abdelhady/hyperflow) (this marketplace copy vendors the plugin runtime only):
+
+- [Installation Guide](https://github.com/Mohammed-Abdelhady/hyperflow/blob/main/docs/installation.md) — setup, recommended settings, security config
+- [Orchestration Pattern](https://github.com/Mohammed-Abdelhady/hyperflow/blob/main/docs/orchestration.md) — decomposition, review, learning injection
+- [Changelog](https://github.com/Mohammed-Abdelhady/hyperflow/blob/main/CHANGELOG.md) — version history
 
 ---
 
