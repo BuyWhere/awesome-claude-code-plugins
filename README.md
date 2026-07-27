@@ -82,6 +82,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [technical-sales-engineer](./plugins/technical-sales-engineer)
 
 ### Code Quality Testing
+- [bullpen](./plugins/bullpen)
 - [api-tester](./plugins/api-tester)
 - [bug-detective](./plugins/bug-detective)
 - [code-review](./plugins/code-review)
