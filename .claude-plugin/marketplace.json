@@ -1670,6 +1670,26 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "rote",
+      "description": "Compile a proven skill (a SKILL.md plus references) into a deterministic pipeline that runs without an LLM in the loop, then serve the compiled pipelines back to Claude as MCP tools.",
+      "version": "0.12.0",
+      "author": {
+        "name": "Trevor Hudson",
+        "url": "https://github.com/trevhud"
+      },
+      "source": "./plugins/rote",
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/trevhud/rote",
+      "keywords": [
+        "workflow",
+        "compilation",
+        "deterministic",
+        "temporal",
+        "dbos",
+        "mcp"
+      ]
     }
   ]
 }
