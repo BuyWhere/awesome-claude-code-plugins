@@ -1674,8 +1674,8 @@
     {
       "name": "claude-session-tint",
       "source": "./plugins/claude-session-tint",
-      "description": "Tint a Terminal.app window by project and brighten it when a Claude Code response finishes unseen; includes a UserPromptSubmit hook that runs an input-box command without invoking the model.",
-      "version": "1.1.0",
+      "description": "Tint a Terminal.app window by project and brighten it when a Claude Code response finishes unseen; tabs sharing a window get a tab-title marker instead. Includes a UserPromptSubmit hook that runs an input-box command without invoking the model.",
+      "version": "1.2.0",
       "author": {
         "name": "DotcomJack"
       },
