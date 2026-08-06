@@ -1670,6 +1670,23 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "claude-session-tint",
+      "source": "./plugins/claude-session-tint",
+      "description": "Tint a Terminal.app window by project and brighten it when a Claude Code response finishes unseen; includes a UserPromptSubmit hook that runs an input-box command without invoking the model.",
+      "version": "1.1.0",
+      "author": {
+        "name": "DotcomJack"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/dotcomjack/claude-session-tint",
+      "keywords": [
+        "terminal",
+        "macos",
+        "hooks",
+        "multi-session"
+      ]
     }
   ]
 }
