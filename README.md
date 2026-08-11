@@ -25,6 +25,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 * [Contributing](#contributing)
 
 ## What is Claude Code Plugin?
+- [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
 
 [Claude Code Plugin](https://docs.claude.com/en/docs/claude-code/plugins) is lightweight package that let you customize and share your Claude Code setup.
  Each plugin can include any combination of:
