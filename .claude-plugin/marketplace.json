@@ -1670,6 +1670,24 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "session-tax",
+      "source": "./plugins/session-tax",
+      "description": "Measure what your Claude Code setup costs on every session before you type anything - opening context, what loads, and how much of it never gets used.",
+      "version": "1.0.0",
+      "author": {
+        "name": "CraniusMaximus LLC",
+        "url": "https://github.com/craniusmaximusllc"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/session-tax",
+      "keywords": [
+        "context",
+        "cost",
+        "tokens",
+        "audit"
+      ]
     }
   ]
 }
